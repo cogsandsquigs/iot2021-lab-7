@@ -31,6 +31,7 @@ void loop()
 {
   // init blynk for this loop
   Blynk.run();
+
   // this chunk inits display for this loop
   display.loop();
   display.clearDisplay();
